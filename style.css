@@ -1,0 +1,17 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.img_layout{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.align{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
